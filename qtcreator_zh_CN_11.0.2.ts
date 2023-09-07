@@ -13757,7 +13757,7 @@ the manifest file by overriding your settings. Allow override?</translation>
         <location filename="../../../src/plugins/autotest/autotestplugin.cpp" line="+147"/>
         <location filename="../../../src/plugins/autotest/testsettingspage.cpp" line="+259"/>
         <source>Testing</source>
-        <translation>测试中</translation>
+        <translation>测试</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -45589,7 +45589,7 @@ You might find further explanations in the Application Output view.</source>
     <message>
         <location line="+7"/>
         <source>Testing...</source>
-        <translation>测试中...</translation>
+        <translation type="unfinished">测试中...</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -66688,7 +66688,7 @@ Will not be applied to whitespace in comments and strings.</source>
     <message>
         <location line="+1"/>
         <source>Fully covered code.</source>
-        <translation type="unfinished">Fully covered code.</translation>
+        <translation>Fully covered code.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -66761,19 +66761,19 @@ Will not be applied to whitespace in comments and strings.</source>
         <location filename="../../../../qtcreator/share/qtcreator/translations/snippets_tr.h" line="+3"/>
         <source>derived from QObject</source>
         <comment>group:&apos;C++&apos; trigger:&apos;class&apos;</comment>
-        <translation>源自 QObject</translation>
+        <translation type="unfinished">派生自 QObject</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>derived from QWidget</source>
         <comment>group:&apos;C++&apos; trigger:&apos;class&apos;</comment>
-        <translation type="unfinished">derived from QWidget</translation>
+        <translation type="unfinished">派生自 QWidget</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>template</source>
         <comment>group:&apos;C++&apos; trigger:&apos;class&apos;</comment>
-        <translation type="unfinished">template</translation>
+        <translation type="unfinished">创建模板类</translation>
     </message>
     <message>
         <location line="+1"/>
