@@ -1116,7 +1116,7 @@ Note: This can expose you to man-in-the-middle attack.</source>
     <message>
         <location line="+27"/>
         <source>General</source>
-        <translation>概要</translation>
+        <translation>常规</translation>
     </message>
 </context>
 <context>
@@ -12274,7 +12274,7 @@ This cannot be undone.</translation>
     <message>
         <location filename="../../../src/plugins/android/androidmanifesteditor.cpp" line="+27"/>
         <source>General</source>
-        <translation>概要</translation>
+        <translation type="unfinished">常规</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -15314,7 +15314,7 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <location line="+7"/>
         <location line="+173"/>
         <source>General</source>
-        <translation>概要</translation>
+        <translation>常规</translation>
     </message>
     <message>
         <location line="-161"/>
@@ -16970,28 +16970,28 @@ Local pulls are not applied to the master branch.</source>
     <message>
         <location filename="../../../src/plugins/beautifier/artisticstyle/artisticstyle.cpp" line="+43"/>
         <source>&amp;Artistic Style</source>
-        <translation>艺术样式(&amp;A)</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../../src/plugins/beautifier/artisticstyle/artisticstyleconstants.h" line="+10"/>
         <location filename="../../../src/plugins/beautifier/artisticstyle/artisticstylesettings.cpp" line="+196"/>
         <source>Artistic Style</source>
-        <translation>艺术样式</translation>
+        <translation type="unfinished">Artistic Style</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/beautifier/artisticstyle/artisticstylesettings.cpp" line="-159"/>
         <source>Artistic Style command:</source>
-        <translation>艺术样式命令：</translation>
+        <translation type="unfinished">Artistic Style 命令：</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Use file *.astylerc defined in project files</source>
-        <translation>在工程文件中使用*.astylerc类型的文件</translation>
+        <translation>使用工程文件中定义的 *.astylerc 文件</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Use specific config file:</source>
-        <translation>使用特定的配置文件：</translation>
+        <translation>使用指定配置文件：</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -17001,7 +17001,7 @@ Local pulls are not applied to the master branch.</source>
     <message>
         <location line="+3"/>
         <source>Use file .astylerc or astylerc in HOME</source>
-        <translation>在用户的HOME目录下使用*.astylerc类型的文件</translation>
+        <translation>使用用户HOME目录的 .astylerc 或 astylerc 文件</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -17037,7 +17037,7 @@ Local pulls are not applied to the master branch.</source>
     <message>
         <location line="+5"/>
         <source>Cannot get configuration file for %1.</source>
-        <translation>无法获取配置文件%1。</translation>
+        <translation>无法获得用于 %1 的配置文件.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -17049,13 +17049,13 @@ Local pulls are not applied to the master branch.</source>
         <location line="+6"/>
         <source>Format &amp;Selected Text</source>
         <extracomment>Menu entry</extracomment>
-        <translation>格式化所选文本(&amp;S)</translation>
+        <translation>格式化选定文本(&amp;S)</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Format at Cursor</source>
         <extracomment>Menu entry</extracomment>
-        <translation>格式化光标(&amp;F)</translation>
+        <translation>格式化光标处(&amp;F)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -17067,7 +17067,7 @@ Local pulls are not applied to the master branch.</source>
         <location line="+6"/>
         <source>&amp;Disable Formatting for Selected Text</source>
         <extracomment>Menu entry</extracomment>
-        <translation>选定的文本禁用格式化(&amp;D)</translation>
+        <translation>对选定的文本关闭格式化(&amp;D)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -17078,17 +17078,17 @@ Local pulls are not applied to the master branch.</source>
     <message>
         <location filename="../../../src/plugins/beautifier/clangformat/clangformat.cpp" line="+39"/>
         <source>&amp;ClangFormat</source>
-        <translation>Clang格式(&amp;C)</translation>
+        <translation>ClangFormat(&amp;C)</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/beautifier/clangformat/clangformatconstants.h" line="+10"/>
         <source>ClangFormat</source>
-        <translation>Clang格式</translation>
+        <translation>ClangFormat</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/beautifier/clangformat/clangformatsettings.cpp" line="-194"/>
         <source>Clang Format command:</source>
-        <translation>Clang格式命令：</translation>
+        <translation>ClangFormat命令：</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -17108,7 +17108,7 @@ Local pulls are not applied to the master branch.</source>
     <message>
         <location line="+55"/>
         <source>Clang Format</source>
-        <translation>Clang格式</translation>
+        <translation>ClangFormat</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/beautifier/configurationdialog.cpp" line="+47"/>
@@ -17158,7 +17158,7 @@ Local pulls are not applied to the master branch.</source>
     <message>
         <location filename="../../../src/plugins/beautifier/generalsettings.cpp" line="-21"/>
         <source>General</source>
-        <translation>概要</translation>
+        <translation>常规</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -18628,7 +18628,7 @@ Local pulls are not applied to the master branch.</source>
     <message>
         <location filename="../../../src/plugins/cmakeprojectmanager/cmakespecificsettings.cpp" line="+30"/>
         <source>General</source>
-        <translation>概要</translation>
+        <translation>常规</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -21126,7 +21126,7 @@ Set a valid executable first.</source>
     <message>
         <location filename="../../../src/plugins/cpaster/settings.cpp" line="-22"/>
         <source>General</source>
-        <translation>概要</translation>
+        <translation>常规</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -41949,7 +41949,7 @@ UDID：%4
         <location filename="../../../src/plugins/languageclient/client.cpp" line="+364"/>
         <source>%1 for %2</source>
         <extracomment>&lt;language client&gt; for &lt;project&gt;</extracomment>
-        <translation>%1 表示 %2</translation>
+        <translation type="unfinished">用于 %2 的 %1</translation>
     </message>
     <message>
         <location line="+200"/>
