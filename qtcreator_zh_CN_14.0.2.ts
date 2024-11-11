@@ -17456,7 +17456,7 @@ This might cause trouble during execution.
     <message>
         <location line="+3"/>
         <source>Executable:</source>
-        <translation>程序：</translation>
+        <translation>可执行文件：</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -32432,7 +32432,7 @@ markers in the source code editor.</source>
     <message>
         <location line="+68"/>
         <source>Use debug info daemon</source>
-        <translation type="unfinished">使用 debug info daemon</translation>
+        <translation type="unfinished">使用调试信息守护进程</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -32452,7 +32452,7 @@ markers in the source code editor.</source>
     <message>
         <location line="+24"/>
         <source>The options below give access to advanced&lt;br&gt;or experimental functions of GDB.&lt;p&gt;Enabling them may negatively impact&lt;br&gt;your debugging experience.</source>
-        <translation type="unfinished">The options below give access to advanced&lt;br&gt;or experimental functions of GDB.&lt;p&gt;Enabling them may negatively impact&lt;br&gt;your debugging experience.</translation>
+        <translation type="unfinished">下面的选项可以访问&lt;br&gt;GDB 的高级或实验性功能。&lt;p&gt;启用它们可能会&lt;br&gt;对您的调试体验产生负面影响。</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -32625,7 +32625,7 @@ markers in the source code editor.</source>
     <message>
         <location filename="../../../src/plugins/debugger/analyzer/startremotedialog.cpp" line="+1"/>
         <source>Executable:</source>
-        <translation>程序：</translation>
+        <translation>可执行文件：</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -32768,27 +32768,27 @@ markers in the source code editor.</source>
     <message>
         <location filename="../../../src/plugins/debugger/dap/dapengine.cpp" line="+587"/>
         <source>The DAP process failed to start. Either the invoked program &quot;%1&quot; is missing, or you may have insufficient permissions to invoke the program.</source>
-        <translation type="unfinished">The DAP process failed to start. Either the invoked program &quot;%1&quot; is missing, or you may have insufficient permissions to invoke the program.</translation>
+        <translation>DAP 进程无法启动。调用程序“%1”丢失，或者可能没有足够的权限来调用该程序。</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The DAP process crashed some time after starting successfully.</source>
-        <translation type="unfinished">The DAP process crashed some time after starting successfully.</translation>
+        <translation>DAP 进程在启动成功后的某个时间崩溃。</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>An error occurred when attempting to write to the DAP process. For example, the process may not be running, or it may have closed its input channel.</source>
-        <translation type="unfinished">An error occurred when attempting to write to the DAP process. For example, the process may not be running, or it may have closed its input channel.</translation>
+        <translation type="unfinished">尝试写入 DAP 进程时出错。例如，该进程可能未运行，或者它可能已关闭其 input 通道。</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>An error occurred when attempting to read from the DAP process. For example, the process may not be running.</source>
-        <translation type="unfinished">An error occurred when attempting to read from the DAP process. For example, the process may not be running.</translation>
+        <translation>尝试从 DAP 进程读取时出错。例如，进程可能未运行。</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>An unknown error in the DAP process occurred.</source>
-        <translation type="unfinished">An unknown error in the DAP process occurred.</translation>
+        <translation>DAP 进程中出现未知错误。</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -32799,12 +32799,12 @@ markers in the source code editor.</source>
     <message>
         <location line="+9"/>
         <source>DAP I/O Error</source>
-        <translation type="unfinished">DAP I/O Error</translation>
+        <translation>DAP I/O 错误</translation>
     </message>
     <message>
         <location line="+74"/>
         <source>&quot;%1&quot; could not be started. Error message: %2</source>
-        <translation type="unfinished">无法启动“%1”。错误消息： %2</translation>
+        <translation>无法启动“%1”。错误消息： %2</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/pdb/pdbengine.cpp" line="-298"/>
@@ -32963,7 +32963,7 @@ markers in the source code editor.</source>
         <location filename="../../../src/plugins/debugger/gdb/gdbengine.cpp" line="-688"/>
         <location line="+18"/>
         <source>Cannot read &quot;%1&quot;: %2</source>
-        <translation type="unfinished">Cannot read &quot;%1&quot;: %2</translation>
+        <translation>无法读取 &quot;%1&quot;: %2</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -32999,7 +32999,7 @@ markers in the source code editor.</source>
     <message>
         <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="+771"/>
         <source>Remove Breakpoint</source>
-        <translation type="unfinished">删除断点</translation>
+        <translation>移除断点</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="+1313"/>
@@ -33126,7 +33126,8 @@ markers in the source code editor.</source>
         <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="+953"/>
         <source>This does not seem to be a &quot;Debug&quot; build.
 Setting breakpoints by file name and line number may fail.</source>
-        <translation type="unfinished">不是‘Debug’模式构建。设置断点可能会失败。</translation>
+        <translation>似乎是非 “Debug” 版本。
+按文件名和行号设置断点可能失败。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/logwindow.cpp" line="+112"/>
@@ -34634,7 +34635,7 @@ Stepping into the module or setting breakpoints by file and line will not work.<
     <message>
         <location line="+2"/>
         <source>Restore Global</source>
-        <translation type="unfinished">还原全局</translation>
+        <translation>恢复全局</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -34675,52 +34676,52 @@ Stepping into the module or setting breakpoints by file and line will not work.<
     <message>
         <location line="+1"/>
         <source>Break When C++ Exception Is Thrown</source>
-        <translation type="unfinished">当抛出C++异常时中断</translation>
+        <translation>引发 C++ 异常时中断</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Break When C++ Exception Is Caught</source>
-        <translation type="unfinished">当捕获C++异常时中断</translation>
+        <translation>捕获 C++ 异常时中断</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Break When Function &quot;main&quot; Starts</source>
-        <translation type="unfinished">当开始‘main’函数时中断</translation>
+        <translation>函数 “main” 启动时中断</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Break When a New Process Is Forked</source>
-        <translation type="unfinished">当分叉一个新进程时中断</translation>
+        <translation>当新进程被 fork 时中断</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Break When a New Process Is Executed</source>
-        <translation type="unfinished">当执行一个新进程时中断</translation>
+        <translation>执行新进程时中断</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Break When a System Call Is Executed</source>
-        <translation type="unfinished">当执行系统调用时中断</translation>
+        <translation>执行系统调用时中断</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Break on Data Access at Fixed Address</source>
-        <translation type="unfinished">数据访问固定地址上中断</translation>
+        <translation>访问固定地址数据时中断</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Break on Data Access at Address Given by Expression</source>
-        <translation type="unfinished">数据访问表达式给出的地址上中断</translation>
+        <translation>访问表达式给出地址的数据时中断</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Break on QML Signal Emit</source>
-        <translation type="unfinished">QML信号发出中断</translation>
+        <translation>QML信号发射时中断</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Break When JavaScript Exception Is Thrown</source>
-        <translation type="unfinished">当抛出JavaScript异常时中断</translation>
+        <translation>引发 JavaScript 异常时中断</translation>
     </message>
     <message>
         <location line="+47"/>
@@ -34730,29 +34731,29 @@ Stepping into the module or setting breakpoints by file and line will not work.<
     <message>
         <location line="+22"/>
         <source>Specifying the module (base name of the library or executable) for function or file type breakpoints can significantly speed up debugger startup times (CDB, LLDB).</source>
-        <translation type="unfinished">为函数或者文件类型断点指定模块（库或者程序基本名称）能够显著提升调试器启动时间（CDB，LLDB）。</translation>
+        <translation>为函数或文件类型断点指定模块 （库或可执行文件的基名称） 可以显著加快调试器启动时间 （CDB、LLDB）。</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Debugger commands to be executed when the breakpoint is hit. This feature is only available for GDB.</source>
-        <translation type="unfinished">当断点被命中时即将执行的调试器命令。这个特性仅GDB可用。</translation>
+        <translation>命中断点时执行 Debugger 命令。此功能仅适用于 GDB。</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Propagate Change to Preset Breakpoint</source>
-        <translation type="unfinished">将更改传播到预设断点</translation>
+        <translation>扩展变更至预设断点</translation>
     </message>
     <message>
         <location line="+1130"/>
         <location line="+1063"/>
         <source>Delete Selected Breakpoints</source>
-        <translation type="unfinished">删除选中的断点</translation>
+        <translation>删除选定的断点</translation>
     </message>
     <message>
         <location line="-1051"/>
         <location line="+1058"/>
         <source>Edit Selected Breakpoints...</source>
-        <translation type="unfinished">编辑选择的断点...</translation>
+        <translation>编辑选定断点...</translation>
     </message>
     <message>
         <location line="-1015"/>
@@ -34799,7 +34800,7 @@ Stepping into the module or setting breakpoints by file and line will not work.<
     <message>
         <location line="+9"/>
         <source>Hit Count:</source>
-        <translation type="unfinished">提示数：</translation>
+        <translation>命中计数：</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -34824,7 +34825,7 @@ Stepping into the module or setting breakpoints by file and line will not work.<
     <message>
         <location line="+1"/>
         <source>Are you sure you want to remove all breakpoints from all files in the current session?</source>
-        <translation type="unfinished">你确定要删除本次会话内的所有文件的断点吗？</translation>
+        <translation type="unfinished">是否确实要从当前会话中的所有文件中删除所有断点？</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/cdb/cdbengine.cpp" line="-2590"/>
@@ -34836,19 +34837,19 @@ Stepping into the module or setting breakpoints by file and line will not work.<
         <source>Internal error: The extension %1 cannot be found.
 If you have updated %2 via Maintenance Tool, you may need to rerun the Tool and select &quot;Add or remove components&quot; and then select the Qt &gt; Tools &gt; Qt Creator CDB Debugger Support component.
 If you build %2 from sources and want to use a CDB executable with another bitness than your %2 build, you will need to build a separate CDB extension with the same bitness as the CDB you want to use.</source>
-        <translation type="unfinished">内部错误：找不到扩展%1。
-如果您通过维护工具更新到%2，您可能需要重新运行工具并且选择‘添加或者删除组件’然后选择‘Qt &gt; 工具 &gt; Qt Creator’中CDB调试器支持组件。
-如果您从源码中构建%2并且想要使用CDB调试不同位数的程序而不是%2构建，你将需要构建一个单独的和您想使用的CDB位数相同的CDB扩展。</translation>
+        <translation>内部错误：找不到扩展%1。
+如已通过维护工具更新到%2，可能需要重新运行工具并且选择‘添加或者删除组件’然后选择‘Qt &gt; 工具 &gt; Qt Creator’中CDB调试器支持组件。
+如果从源码中构建%2并且想要使用CDB调试不同位数的程序而不是%2构建，需要构建一个单独的和您想使用的CDB位数相同的CDB扩展。</translation>
     </message>
     <message>
         <location line="+1300"/>
         <source>Trace point %1 in thread %2 triggered.</source>
-        <translation type="unfinished">追踪点%1在线程%2处触发。</translation>
+        <translation>触发线程 %2 中的跟踪点 %1。</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Conditional breakpoint %1 in thread %2 triggered, examining expression &quot;%3&quot;.</source>
-        <translation type="unfinished">条件断点%1在线程%2触发。检查扩展‘%3’。</translation>
+        <translation>触发线程 %2 中的条件断点 %1，检查表达式 “%3”。</translation>
     </message>
     <message>
         <location line="+526"/>
@@ -34861,45 +34862,45 @@ If you build %2 from sources and want to use a CDB executable with another bitne
 Locals and Expression might not be able to display all Qt types in a human readable format.
 
 Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance Tool for this Qt installation to get all relevant symbols for the debugger.</source>
-        <translation type="unfinished">The installed %1 is missing debug information files.
-Locals and Expression might not be able to display all Qt types in a human readable format.
+        <translation>安装的 %1 缺少调试信息文件。
+局部变量 (Locals) 和表达式 (Expressions) 可能无法以人类可读格式显示所有 Qt 类型。
 
-Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance Tool for this Qt installation to get all relevant symbols for the debugger.</translation>
+从维护工具中安装此 Qt 安装的 “Qt Debug Information Files” 包，以获取调试器的所有相关符号。</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Missing Qt Debug Information</source>
-        <translation type="unfinished">Missing Qt Debug Information</translation>
+        <translation>缺少 Qt 调试信息</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Debugger Start Failed</source>
-        <translation type="unfinished">Debugger Start Failed</translation>
+        <translation>调试器启动失败</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The system prevents loading of &quot;%1&quot;, which is required for debugging. Make sure that your antivirus solution is up to date and if that does not work consider adding an exception for &quot;%1&quot;.</source>
-        <translation type="unfinished">The system prevents loading of &quot;%1&quot;, which is required for debugging. Make sure that your antivirus solution is up to date and if that does not work consider adding an exception for &quot;%1&quot;.</translation>
+        <translation>系统阻止加载调试所需的 “%1”。确保您的防病毒解决方案是最新的，如果不起作用，请考虑为“%1”添加例外。</translation>
     </message>
     <message>
         <location line="+108"/>
         <source>Module loaded: %1</source>
-        <translation type="unfinished">模块已载入：%1</translation>
+        <translation>已加载模块： %1</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/cdb/cdboptionspage.cpp" line="+147"/>
         <source>Various</source>
-        <translation type="unfinished">多种</translation>
+        <translation>各种(Various)</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Break On</source>
-        <translation type="unfinished">Break On</translation>
+        <translation>中断于</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Add Exceptions to Issues View</source>
-        <translation type="unfinished">为问题视图添加异常</translation>
+        <translation>将异常添加到问题视图</translation>
     </message>
     <message>
         <location line="+59"/>
@@ -34919,17 +34920,17 @@ Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance 
     <message>
         <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="+6"/>
         <source>Always adds a breakpoint on the &lt;i&gt;%1()&lt;/i&gt; function.</source>
-        <translation type="unfinished">总是在%1函数处添加一个断点。</translation>
+        <translation>总是在 &lt;i&gt;%1()&lt;/i&gt; 函数上添加断点。</translation>
     </message>
     <message>
         <location line="+125"/>
         <source>Default array size:</source>
-        <translation type="unfinished">Default array size:</translation>
+        <translation>默认数组大小：</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The number of array elements requested when expanding entries in the Locals and Expressions views.</source>
-        <translation type="unfinished">The number of array elements requested when expanding entries in the Locals and Expressions views.</translation>
+        <translation>在局部变量 (Locals) 和表达式 (Expressions) 视图中展开条目时请求的数组元素数。</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -34939,12 +34940,12 @@ Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance 
     <message>
         <location line="+10"/>
         <source>Extra Debugging Helper</source>
-        <translation type="unfinished">Extra Debugging Helper</translation>
+        <translation>额外的调试帮助程序</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Debugging Helper Customization</source>
-        <translation type="unfinished">自定义调试助手</translation>
+        <translation>自定义调试帮助程序</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/console/console.cpp" line="+11"/>
@@ -34970,7 +34971,7 @@ Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance 
     <message>
         <location line="+31"/>
         <source>Always Adjust View Column Widths to Contents</source>
-        <translation type="unfinished">始终根据内容调整视图列宽</translation>
+        <translation>始终根据内容调整视图列宽</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="-291"/>
@@ -34980,17 +34981,17 @@ Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance 
     <message>
         <location line="+2"/>
         <source>Scrolls the editor only when it is necessary to keep the current line in view, instead of keeping the next statement centered at all times.</source>
-        <translation type="unfinished">仅当需要在视图中保留当前行时才滚动编辑器，而不是始终保持下一条语句居中。</translation>
+        <translation>仅在需要保持当前行在视图中时滚动编辑器，而不是始终将下一语句保持在中心位置。</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Force logging to console</source>
-        <translation type="unfinished">Force logging to console</translation>
+        <translation>强制记录到控制台</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Sets QT_LOGGING_TO_CONSOLE=1 in the environment of the debugged program, preventing storing debug output in system logs.</source>
-        <translation type="unfinished">Sets QT_LOGGING_TO_CONSOLE=1 in the environment of the debugged program, preventing storing debug output in system logs.</translation>
+        <translation>在调试程序的环境中设置 QT_LOGGING_TO_CONSOLE=1，禁止调试输出存储至系统日志中。</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -35000,7 +35001,7 @@ Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance 
     <message>
         <location filename="../../../src/plugins/debugger/debuggeractions.cpp" line="+12"/>
         <source>This switches the Locals and Expressions views to automatically dereference pointers. This saves a level in the tree view, but also loses data for the now-missing intermediate level.</source>
-        <translation type="unfinished">This switches the Locals and Expressions views to automatically dereference pointers. This saves a level in the tree view, but also loses data for the now-missing intermediate level.</translation>
+        <translation>这会将 Locals （局部变量） 和 Expressions （表达式） 视图切换为自动取消引用指针。这将在树状视图中保存一个级别，但也会丢失现在缺少的中间级别的数据。</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -35010,17 +35011,17 @@ Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance 
     <message>
         <location line="+9"/>
         <source>Catches runtime error messages caused by assert(), for example.</source>
-        <translation type="unfinished">Catches runtime error messages caused by assert(), for example.</translation>
+        <translation>例如，捕获由 assert() 引起的运行时错误消息。</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Uses CDB&apos;s native console for console applications. This overrides the setting in Environment &gt; System. The native console does not prompt on application exit. It is suitable for diagnosing cases in which the application does not start up properly in the configured console and the subsequent attach fails.</source>
-        <translation type="unfinished">Uses CDB&apos;s native console for console applications. This overrides the setting in Environment &gt; System. The native console does not prompt on application exit. It is suitable for diagnosing cases in which the application does not start up properly in the configured console and the subsequent attach fails.</translation>
+        <translation>将 CDB 本机控制台应用于控制台应用程序。会覆盖 Environment &gt; &quot;System&quot; 中的设置。本机控制台不会在应用程序退出时提示。适用于诊断应用程序无法在配置的控制台中正常启动且后续连接失败的情况。</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Attempts to correct the location of a breakpoint based on file and line number should it be in a comment or in a line for which no code is generated. The correction is based on the code model.</source>
-        <translation type="unfinished">Attempts to correct the location of a breakpoint based on file and line number should it be in a comment or in a line for which no code is generated. The correction is based on the code model.</translation>
+        <translation>尝试根据文件和行号更正断点的位置，如果断点位于注释中或未生成代码的行中。更正基于代码模型。</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -35045,12 +35046,12 @@ Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance 
     <message>
         <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="+190"/>
         <source>Show &quot;std::&quot; namespace in types</source>
-        <translation type="unfinished">在类型中显示‘std::’命名空间</translation>
+        <translation>在类型中显示 “std::” 命名空间</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Shows &quot;std::&quot; prefix for types from the standard library.</source>
-        <translation type="unfinished">Shows &quot;std::&quot; prefix for types from the standard library.</translation>
+        <translation>显示标准库中类型的 “std::” 前缀。</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -35066,12 +35067,12 @@ Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance 
         <location line="+5"/>
         <location line="+1"/>
         <source>Show QObject names if available</source>
-        <translation type="unfinished">显示QObject的名称如果可用</translation>
+        <translation>显示 QObject 名称（如果可用）</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Displays the objectName property of QObject based items. Note that this can negatively impact debugger performance even if no QObjects are present.</source>
-        <translation type="unfinished">Displays the objectName property of QObject based items. Note that this can negatively impact debugger performance even if no QObjects are present.</translation>
+        <translation>显示基于 QObject 的项的 objectName 属性。请注意，即使不存在 QObjects，这也会对调试器性能产生负面影响。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/debuggeractions.cpp" line="+6"/>
@@ -35081,17 +35082,17 @@ Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance 
     <message>
         <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="-29"/>
         <source>Selecting this causes the C++ Code Model being asked for variable scope information. This might result in slightly faster debugger operation but may fail for optimized code.</source>
-        <translation type="unfinished">Selecting this causes the C++ Code Model being asked for variable scope information. This might result in slightly faster debugger operation but may fail for optimized code.</translation>
+        <translation>选择此选项将导致要求 C++ 代码模型提供变量范围信息。这可能会导致调试器操作速度稍快，但对于优化代码可能会失败。</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Displays names of QThread based threads.</source>
-        <translation type="unfinished">Displays names of QThread based threads.</translation>
+        <translation>显示基于 QThread 的线程的名称。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/gdb/gdbsettings.cpp" line="-227"/>
         <source>Not all source code lines generate executable code. Putting a breakpoint on such a line acts as if the breakpoint was set on the next line that generated code. Selecting &apos;Adjust Breakpoint Locations&apos; shifts the red breakpoint markers in such cases to the location of the true breakpoint.</source>
-        <translation type="unfinished">Not all source code lines generate executable code. Putting a breakpoint on such a line acts as if the breakpoint was set on the next line that generated code. Selecting &apos;Adjust Breakpoint Locations&apos; shifts the red breakpoint markers in such cases to the location of the true breakpoint.</translation>
+        <translation>并非所有源代码行都会生成可执行代码。在这样的行上放置断点的行为就像在生成代码的下一行上设置了断点一样。在这种情况下，选择 Adjust Breakpoint Locations（调整断点位置）会将红色断点标记移动到真实断点的位置。</translation>
     </message>
     <message>
         <location line="+48"/>
@@ -35106,27 +35107,27 @@ Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance 
     <message>
         <location line="+8"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;Adds common paths to locations of debug information such as &lt;i&gt;/usr/src/debug&lt;/i&gt; when starting GDB.&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;当启用GDB时，添加调试信息的通常路径到本地，如&lt;i&gt;/usr/src/debug&lt;/i&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;在启动 GDB 时，将公共路径添加到调试信息的位置，例如 &lt;i&gt;/usr/src/debug&lt;/i&gt;。&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="-119"/>
         <source>Shows a warning when starting the debugger on a binary with insufficient debug information.</source>
-        <translation type="unfinished">在调试信息不足的程序上启动调试器时，显示警告。</translation>
+        <translation>在调试信息不足的二进制文件上启动调试器时显示警告。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/gdb/gdbsettings.cpp" line="+18"/>
         <source>&lt;p&gt;To execute simple Python commands, prefix them with &quot;python&quot;.&lt;/p&gt;&lt;p&gt;To execute sequences of Python commands spanning multiple lines prepend the block with &quot;python&quot; on a separate line, and append &quot;end&quot; on a separate line.&lt;/p&gt;&lt;p&gt;To execute arbitrary Python scripts, use &lt;i&gt;python execfile(&apos;/path/to/script.py&apos;)&lt;/i&gt;.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;要执行简单的Python的命令，用‘Python’前缀他们。&lt;/p&gt;&lt;p&gt;T执行序列的Python命令跨越多行的前面加上一个单独的行‘Python’块，并追加‘end’的一个独立的行。&lt;/p&gt;&lt;p&gt;要执行任意的Python脚本，使用&lt;I&gt;Python的execfile（/path/to/script.py）&lt;/i&gt;。&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;要执行简单的 Python 命令，请在它们前面加上 “python” 前缀。&lt;/p&gt;&lt;p&gt;要执行跨多行的 Python 命令序列，请在单独的行中为块添加“python”，并在单独的行上添加“end”。&lt;/p&gt;&lt;p&gt;要执行任意 Python 脚本，请使用 &lt;i&gt;python execfile（&apos;/path/to/script.py&apos;）。&lt;/i&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>GDB commands entered here will be executed after GDB has been started, but before the debugged program is started or attached, and before the debugging helpers are initialized.</source>
-        <translation type="unfinished">GDB commands entered here will be executed after GDB has been started, but before the debugged program is started or attached, and before the debugging helpers are initialized.</translation>
+        <translation>此处输入的 GDB 命令将在 GDB 启动之后执行，但在启动或附加调试程序之前，以及初始化调试帮助程序之前执行。</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>GDB commands entered here will be executed after GDB has successfully attached to remote targets.&lt;/p&gt;&lt;p&gt;You can add commands to further set up the target here, such as &quot;monitor reset&quot; or &quot;load&quot;.</source>
-        <translation type="unfinished">GDB commands entered here will be executed after GDB has successfully attached to remote targets.&lt;/p&gt;&lt;p&gt;You can add commands to further set up the target here, such as &quot;monitor reset&quot; or &quot;load&quot;.</translation>
+        <translation>在此处输入的 GDB 命令将在 GDB 成功连接到远程目标后执行。&lt;/p&gt;&lt;p&gt;您可以在此处添加命令以进一步设置目标，例如 “monitor reset” 或 “load”。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="+149"/>
@@ -35141,87 +35142,87 @@ Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance 
     <message>
         <location line="+2"/>
         <source>Path to a Python file containing additional data dumpers.</source>
-        <translation type="unfinished">包含其他数据转储程序的 Python 文件的路径。</translation>
+        <translation>包含其他数据转储程序的 Python 文件的路径。</translation>
     </message>
     <message>
         <location line="-192"/>
         <source>Stopping and stepping in the debugger will automatically open views associated with the current location.</source>
-        <translation type="unfinished">在调试时停止和单步将会自动打开相关位置。</translation>
+        <translation>在调试器中停止和单步执行将自动打开与当前位置关联的视图。</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Close temporary source views on debugger exit</source>
-        <translation type="unfinished">在退出调试器时关闭临时资源视图</translation>
+        <translation>在调试器退出时关闭临时源视图</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Closes automatically opened source views when the debugger exits.</source>
-        <translation type="unfinished">在退出调试器时关闭自动打开的源代码视图。</translation>
+        <translation>当调试器退出时，关闭自动打开的源视图。</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Close temporary memory views on debugger exit</source>
-        <translation type="unfinished">在退出调试器时，关闭临时的内存视图</translation>
+        <translation>在调试器退出时关闭临时内存视图</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Closes automatically opened memory views when the debugger exits.</source>
-        <translation type="unfinished">在退出调试器时，关闭自动打开的内存视图。</translation>
+        <translation>当调试器退出时关闭自动打开的内存视图。</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Enables a full file path in breakpoints by default also for GDB.</source>
-        <translation type="unfinished">默认在断点中也为GDB启用完全文件路径。</translation>
+        <translation>默认情况下，GDB 也会在断点中启用完整文件路径。</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set breakpoints using a full absolute path</source>
-        <translation type="unfinished">使用完全绝对路径设置断点</translation>
+        <translation>使用完整的绝对路径设置断点</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Bring %1 to foreground when application interrupts</source>
-        <translation type="unfinished">应用程序中断时将%1提到前台</translation>
+        <translation>在应用程序中断时将 %1 置于前台</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/gdb/gdbsettings.cpp" line="+8"/>
         <source>Debug all child processes</source>
-        <translation type="unfinished">调试所有子进程</translation>
+        <translation>调试所有子进程</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;Keeps debugging all children after a fork.&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;分支之后保持调试所有子进程。&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;在 fork 后继续调试所有子项。&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Use Intel style disassembly</source>
-        <translation type="unfinished">使用Intel 样式反汇编</translation>
+        <translation>使用 Intel 风格的反汇编</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>GDB shows by default AT&amp;&amp;T style disassembly.</source>
-        <translation type="unfinished">GDB 默认显示 AT&amp;T 样式的反汇编。</translation>
+        <translation>默认情况下，GDB 显示 AT&amp;&amp;T 样式的反汇编。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="+4"/>
         <source>Use annotations in main editor when debugging</source>
-        <translation type="unfinished">Use annotations in main editor when debugging</translation>
+        <translation>调试时使用主编辑器中的注释</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Shows simple variable values as annotations in the main editor during debugging.</source>
-        <translation type="unfinished">Shows simple variable values as annotations in the main editor during debugging.</translation>
+        <translation>在调试期间，在主编辑器中将简单变量值显示为注释。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/gdb/gdbsettings.cpp" line="+3"/>
         <source>Use pseudo message tracepoints</source>
-        <translation type="unfinished">Use pseudo message tracepoints</translation>
+        <translation>使用伪消息跟踪点</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Uses Python to extend the ordinary GDB breakpoint class.</source>
-        <translation type="unfinished">使用 Python 扩展普通 GDB 断点类。</translation>
+        <translation>使用 Python 扩展普通 GDB 断点类。</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -35231,42 +35232,42 @@ Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance 
     <message>
         <location line="+1"/>
         <source>It is possible for GDB to automatically save a copy of its symbol index in a cache on disk and retrieve it from there when loading the same binary in the future.</source>
-        <translation type="unfinished">It is possible for GDB to automatically save a copy of its symbol index in a cache on disk and retrieve it from there when loading the same binary in the future.</translation>
+        <translation>GDB 可以自动将其符号索引的副本保存在磁盘上的缓存中，并在将来加载相同的二进制文件时从那里检索它。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="+14"/>
         <source>Enables tooltips for variable values during debugging. Since this can slow down debugging and does not provide reliable information as it does not use scope information, it is switched off by default.</source>
-        <translation type="unfinished">Enables tooltips for variable values during debugging. Since this can slow down debugging and does not provide reliable information as it does not use scope information, it is switched off by default.</translation>
+        <translation>在调试期间启用变量值的工具提示。由于这会减慢调试速度，并且由于不使用范围信息而无法提供可靠的信息，因此默认情况下它处于关闭状态。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/debuggeractions.cpp" line="+14"/>
         <source>Enables tooltips in the locals view during debugging.</source>
-        <translation type="unfinished">Enables tooltips in the locals view during debugging.</translation>
+        <translation>在调试期间，在 Locals 视图中启用工具提示。</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Enables tooltips in the breakpoints view during debugging.</source>
-        <translation type="unfinished">Enables tooltips in the breakpoints view during debugging.</translation>
+        <translation>在调试期间，在 breakpoints 视图中启用工具提示。</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Use Tooltips in Stack View when Debugging</source>
-        <translation type="unfinished">调试时在堆栈视图中使用工具提示</translation>
+        <translation>调试时在堆栈视图 中使用工具提示</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Enables tooltips in the stack view during debugging.</source>
-        <translation type="unfinished">Enables tooltips in the stack view during debugging.</translation>
+        <translation>在调试期间在堆栈视图中启用工具提示。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/gdb/gdbsettings.cpp" line="+25"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables stepping backwards.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; This feature is very slow and unstable on the GDB side. It exhibits unpredictable behavior when going backwards over system calls and is very likely to destroy your debugging session.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;启用后退操作。&lt;/p&gt;&lt;p&gt;&lt;b&gt;注意：&lt;/b&gt;这个功能是非常缓慢和不稳定的GDB的一面。在系统调用倒退，并极有可能摧毁你的调试会话时，它具有不可预知的行为。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;启用后退。&lt;/p&gt;&lt;p&gt;&lt;b&gt;注意：&lt;/b&gt;此功能在 GDB 端非常缓慢且不稳定。当系统调用向后时，它会表现出不可预测的行为，并且很可能会破坏您的调试会话。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="-66"/>
         <source>Registers %1 for debugging crashed applications.</source>
-        <translation type="unfinished">注册%1用于调试崩溃的应用程序。</translation>
+        <translation>注册 %1 以调试崩溃的应用程序。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -35286,7 +35287,7 @@ Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance 
     <message>
         <location line="+3"/>
         <source>The maximum length of string entries in the Locals and Expressions views. Longer than that are cut off and displayed with an ellipsis attached.</source>
-        <translation type="unfinished">The maximum length of string entries in the Locals and Expressions views. Longer than that are cut off and displayed with an ellipsis attached.</translation>
+        <translation>Locals （局部变量） 和 Expressions （表达式） 视图中字符串条目的最大长度。超过此长度的字符将被截断并显示并附加省略号。</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -35296,7 +35297,7 @@ Install the &quot;Qt Debug Information Files&quot; Package from the Maintenance 
     <message>
         <location line="+3"/>
         <source>The maximum length for strings in separated windows. Longer strings are cut off and displayed with an ellipsis attached.</source>
-        <translation type="unfinished">The maximum length for strings in separated windows. Longer strings are cut off and displayed with an ellipsis attached.</translation>
+        <translation>分隔窗口中字符串的最大长度。较长的字符串被截断并显示并附加省略号。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/gdb/gdbsettings.cpp" line="+11"/>
@@ -35305,9 +35306,11 @@ The default value of 20 seconds should be sufficient for most
 applications, but there are situations when loading big libraries or
 listing source files takes much longer than that on slow machines.
 In this case, the value should be increased.</source>
-        <translation type="unfinished">未响应的GDB进程终止前的秒数。
-对于大多数应用程序，默认值20秒应该足够了。
-但是在旧机器上加载大库或者源文件时，需要增加此数。</translation>
+        <translation>未响应 GDB 进程终止之前的秒数。
+默认值 20 秒应该足以满足大多数
+应用程序，但在某些情况下，当加载大型库或
+列出源文件所需的时间比在慢速计算机上花费的时间要长得多。
+在这种情况下，该值应增加。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="-218"/>
@@ -35318,8 +35321,8 @@ In this case, the value should be increased.</source>
         <location filename="../../../src/plugins/debugger/debuggerdialogs.cpp" line="-691"/>
         <source>Normally, the running server is identified by the IP of the device in the kit and the server port selected above.
 You can choose another communication channel here, such as a serial line or custom ip:port.</source>
-        <translation type="unfinished">正常情况下，运行的服务器是由设备中的设备IP和上面选择的服务器端口来标识的。
-您可以在这里选择另一个通信通道，如串行线或自定义IP：端口。</translation>
+        <translation>通常，正在运行的服务器由套件中设备的 IP 和上面选择的服务器端口来识别。
+您可以在此处选择其他通信通道，例如串行线路或自定义 ip:port。</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -35341,7 +35344,7 @@ You can choose another communication channel here, such as a serial line or cust
     <message>
         <location line="+1"/>
         <source>This option can be used to override the kit&apos;s SysRoot setting.</source>
-        <translation type="unfinished">此选项可用于覆盖工具包的SysRoot设置。</translation>
+        <translation>此选项可用于覆盖套件的 SysRoot 设置。</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -35372,7 +35375,7 @@ You can choose another communication channel here, such as a serial line or cust
     <message>
         <location line="+26"/>
         <source>Use target extended-remote to connect:</source>
-        <translation type="unfinished">Use target extended-remote to connect:</translation>
+        <translation>使用 target extended-remote 连接：</translation>
     </message>
     <message>
         <location line="+156"/>
@@ -35382,7 +35385,7 @@ You can choose another communication channel here, such as a serial line or cust
     <message>
         <location line="+136"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;The remote CDB needs to load the matching %1 CDB extension (&lt;code&gt;%2&lt;/code&gt; or &lt;code&gt;%3&lt;/code&gt;, respectively).&lt;/p&gt;&lt;p&gt;Copy it onto the remote machine and set the environment variable &lt;code&gt;%4&lt;/code&gt; to point to its folder.&lt;/p&gt;&lt;p&gt;Launch the remote CDB as &lt;code&gt;%5 &amp;lt;executable&amp;gt;&lt;/code&gt; to use TCP/IP as communication protocol.&lt;/p&gt;&lt;p&gt;Enter the connection parameters as:&lt;/p&gt;&lt;pre&gt;%6&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;远程CDB需要载入匹配的%1 CDB扩展（&lt;code&gt;%2&lt;/code&gt;或&lt;code&gt;%3&lt;/code&gt;，按顺序）。&lt;/p&gt;&lt;p&gt;请把它复制到远程机器，并设定环境变量&lt;code&gt;%4&lt;/code&gt;指向它所在的目录。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;以&lt;code&gt;%5 &amp;lt;程序&amp;gt;&lt;/code&gt;的方式启动远程CDB以使用TCP/IP作为通讯协议。&lt;/p&gt;&lt;p&gt;按照&lt;/p&gt;&lt;pre&gt;%6&lt;/pre&gt;的格式输入连接的参数&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;远程 CDB 需要加载匹配的 %1 CDB 扩展名（分别为 &lt;code&gt;%2&lt;/code&gt; 或 &lt;code&gt;%3&lt;/code&gt;）。&lt;/p&gt;&lt;p&gt;将其复制到远程计算机上，并将环境变量 &lt;code&gt;%4&lt;/code&gt; 设置为指向其文件夹。&lt;/p&gt;&lt;p&gt;以 &lt;code&gt;%5 &amp;lt;可执行&amp;gt;&lt;/code&gt; 的形式启动远程 CDB，以使用 TCP/IP 作为通信协议。&lt;/p&gt;&lt;p&gt;输入连接参数，如下所示：&lt;/p&gt;&lt;pre&gt;%6&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location line="+89"/>
@@ -35392,24 +35395,24 @@ You can choose another communication channel here, such as a serial line or cust
     <message>
         <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="-2572"/>
         <source>Continue %1</source>
-        <translation type="unfinished">继续%1</translation>
+        <translation>继续 %1</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Interrupt %1</source>
-        <translation type="unfinished">中断%1</translation>
+        <translation>中断 %1</translation>
     </message>
     <message>
         <location line="+176"/>
         <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="-1080"/>
         <source>Set or Remove Breakpoint</source>
-        <translation type="unfinished">Set or Remove Breakpoint</translation>
+        <translation>设置或删除断点</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="+1"/>
         <source>Enable or Disable Breakpoint</source>
-        <translation type="unfinished">Enable or Disable Breakpoint</translation>
+        <translation>启用或禁用断点</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -35441,7 +35444,7 @@ You can choose another communication channel here, such as a serial line or cust
     <message>
         <location line="+14"/>
         <source>Switches the debugger to instruction-wise operation mode. In this mode, stepping operates on single instructions and the source location view also shows the disassembled instructions.</source>
-        <translation type="unfinished">将调试器切换到指令操作模式。在此模式下，单步操作对单个指令进行操作，源位置视图也显示已反汇编的指令。</translation>
+        <translation>将调试器切换到 instruction-wise 运行模式。在此模式下，单步执行单个指令时， source location 视图也显示反汇编的指令。</translation>
     </message>
     <message>
         <location line="+52"/>
@@ -35501,17 +35504,17 @@ You can choose another communication channel here, such as a serial line or cust
     <message>
         <location line="+1"/>
         <source>Note: </source>
-        <translation type="unfinished">便签： </translation>
+        <translation>注意： </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This feature is very slow and unstable on the GDB side. It exhibits unpredictable behavior when going backwards over system calls and is very likely to destroy your debugging session.</source>
-        <translation type="unfinished">这个特性在gdb方面非常缓慢和不稳定。当向后遍历系统调用时，它显示出不可预知的行为，并且很可能会破坏调试会话。</translation>
+        <translation>此功能在 GDB 端非常缓慢且不稳定。当系统调用向后时，它会表现出不可预测的行为，并且很可能会破坏您的调试会话。</translation>
     </message>
     <message>
         <location line="+206"/>
         <source>Operate in Reverse Direction</source>
-        <translation type="unfinished">反方向操作</translation>
+        <translation>反向操作</translation>
     </message>
     <message>
         <location line="+224"/>
@@ -35526,28 +35529,28 @@ You can choose another communication channel here, such as a serial line or cust
     <message>
         <location line="+1"/>
         <source>Unexpected %1 Exit</source>
-        <translation type="unfinished">意想不到的%1退出</translation>
+        <translation> %1 意外退出</translation>
     </message>
     <message>
         <location line="+161"/>
         <source>Reverse-execution history exhausted. Going forward again.</source>
-        <translation type="unfinished">反向执行历史已用完，再次向前。</translation>
+        <translation>反向执行历史记录已耗尽。再次向前。</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Reverse-execution recording failed.</source>
-        <translation type="unfinished">反向执行录制失败。</translation>
+        <translation>反向执行录制失败。</translation>
     </message>
     <message>
         <location line="+204"/>
         <source>%1 for &quot;%2&quot;</source>
         <extracomment>e.g. LLDB for &quot;myproject&quot;, shows up i</extracomment>
-        <translation type="unfinished">为‘%2’的%1</translation>
+        <translation>用于‘%2’的%1</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Stopped: &quot;%1&quot;.</source>
-        <translation type="unfinished">停止：%1。</translation>
+        <translation>已停止： “%1”。</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -35564,17 +35567,17 @@ You can choose another communication channel here, such as a serial line or cust
     <message>
         <location line="+1"/>
         <source>&lt;p&gt;The inferior stopped because it received a signal from the operating system.&lt;p&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Signal name : &lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Signal meaning : &lt;/td&gt;&lt;td&gt;%2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</source>
-        <translation type="unfinished">&lt;p&gt;inferior因从操作系统接收到一个信号而停止。&lt;p&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;信号名称：&lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;信号含义：&lt;/td&gt;&lt;td&gt;%2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</translation>
+        <translation>&lt;p&gt;由于接收到来自操作系统的信号，下级停止。&lt;p&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;信号名称 ： &lt;/td&gt;&lt;td&gt;%1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;信号含义 ： &lt;/td&gt;&lt;td&gt;%2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Signal Received</source>
-        <translation type="unfinished">接收信号</translation>
+        <translation>接收到信号</translation>
     </message>
     <message>
         <location line="+265"/>
         <source>Select a valid expression to evaluate.</source>
-        <translation type="unfinished">请选择一个有效的表达式进行求值。</translation>
+        <translation>选择一个有效表达式进行求值。</translation>
     </message>
     <message>
         <location line="+166"/>
@@ -35600,13 +35603,13 @@ You can choose another communication channel here, such as a serial line or cust
         <location line="+42"/>
         <source>The inferior is in the Portable Executable format.
 Selecting %1 as debugger would improve the debugging experience for this binary format.</source>
-        <translation type="unfinished">底层在便携式程序（PE）格式中。选择‘%1’作为调试器将改善该二进制格式的调试体验。</translation>
+        <translation>底层为可移植程序(PE)格式。选择‘%1’作为调试器将改善该二进制格式的调试体验。</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>The inferior is in the ELF format.
 Selecting GDB or LLDB as debugger would improve the debugging experience for this binary format.</source>
-        <translation type="unfinished">底层在ELF格式中。选择GDB或LLDB作为调试器将改善该二进制格式的调试体验。</translation>
+        <translation>底层为ELF格式。选择GDB或LLDB作为调试器将改善该二进制格式的调试体验。</translation>
     </message>
     <message>
         <location line="+94"/>
@@ -35616,7 +35619,7 @@ Selecting GDB or LLDB as debugger would improve the debugging experience for thi
     <message>
         <location line="+1"/>
         <source>Section %1: %2</source>
-        <translation type="unfinished">第%1：%2</translation>
+        <translation>第(Section) %1: %2</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -35670,7 +35673,7 @@ Examining symbols and setting breakpoints by file name and line number may fail.
     <message>
         <location line="+15"/>
         <source>GDB from PATH on Build Device</source>
-        <translation type="unfinished">GDB from PATH on Build Device</translation>
+        <translation>生成设备上 PATH 的 GDB</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -35711,12 +35714,12 @@ Examining symbols and setting breakpoints by file name and line number may fail.
     <message>
         <location line="+14"/>
         <source>New Debugger</source>
-        <translation type="unfinished">新调试器</translation>
+        <translation>新建调试器</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Restore</source>
-        <translation type="unfinished">还原</translation>
+        <translation>恢复</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -35736,53 +35739,53 @@ Examining symbols and setting breakpoints by file name and line number may fail.
     <message>
         <location line="+448"/>
         <source>Searching debuggers...</source>
-        <translation type="unfinished">Searching debuggers...</translation>
+        <translation>正在搜索调试器...</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>System %1 at %2</source>
         <extracomment>%1: Debugger engine type (GDB, LLDB, CDB...), %2: Path</extracomment>
-        <translation type="unfinished">系统%1在%2</translation>
+        <translation>系统 %1 在 %2</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Detected %1 at %2</source>
-        <translation type="unfinished">Detected %1 at %2</translation>
+        <translation>检测到 %1 at %2</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Found: &quot;%1&quot;</source>
-        <translation type="unfinished">Found: &quot;%1&quot;</translation>
+        <translation>找到: &quot;%1&quot;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Auto-detected uVision at %1</source>
-        <translation type="unfinished">在‘%1’自动检测uVision</translation>
+        <translation>在 %1 处自动检测到 uVision</translation>
     </message>
     <message>
         <location line="+182"/>
         <source>Removing debugger entries...</source>
-        <translation type="unfinished">Removing debugger entries...</translation>
+        <translation>正在删除调试器条目...</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Removed &quot;%1&quot;</source>
-        <translation type="unfinished">Removed &quot;%1&quot;</translation>
+        <translation>已删除 “%1”</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Debuggers:</source>
-        <translation type="unfinished">Debuggers:</translation>
+        <translation>调试器:</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/debuggerkitaspect.cpp" line="-232"/>
         <source>Debugger &quot;%1&quot; not found.</source>
-        <translation type="unfinished">找不到调试器‘%1’。</translation>
+        <translation>找不到调试器‘%1’。</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Debugger &quot;%1&quot; not executable.</source>
-        <translation type="unfinished">调试器‘%1’不可执行。</translation>
+        <translation>调试器 “%1” 不可执行。</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -35868,7 +35871,7 @@ Examining symbols and setting breakpoints by file name and line number may fail.
     <message>
         <location line="+15"/>
         <source>DAP</source>
-        <translation type="unfinished">磷酸 二 铵</translation>
+        <translation>DAP</translation>
     </message>
     <message>
         <location line="+95"/>
@@ -35879,7 +35882,7 @@ Examining symbols and setting breakpoints by file name and line number may fail.
     <message>
         <location line="+1"/>
         <source>Issues that the Valgrind tools found when analyzing the code.</source>
-        <translation type="unfinished">Valgrind 工具在分析代码时发现的问题。</translation>
+        <translation>Valgrind 工具在分析代码时发现的问题。</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -35894,7 +35897,7 @@ Examining symbols and setting breakpoints by file name and line number may fail.
     <message>
         <location line="+1"/>
         <source>Issues with starting the debugger.</source>
-        <translation type="unfinished">启动调试器时出现问题。</translation>
+        <translation>启动调试器时出现问题。</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -35981,12 +35984,12 @@ Examining symbols and setting breakpoints by file name and line number may fail.
     <message>
         <location line="+27"/>
         <source>Option &quot;%1&quot; is missing the parameter.</source>
-        <translation type="unfinished">选项‘%1’的参数缺失。</translation>
+        <translation>选项 “%1” 缺少参数。</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Only one executable allowed.</source>
-        <translation type="unfinished">只允许一个程序。</translation>
+        <translation>只允许一个可执行文件。</translation>
     </message>
     <message>
         <location line="+79"/>
@@ -35996,17 +35999,17 @@ Examining symbols and setting breakpoints by file name and line number may fail.
     <message>
         <location line="+64"/>
         <source>Start debugging of startup project</source>
-        <translation type="unfinished">启动项目调试</translation>
+        <translation>启动项目的开始调试</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Start Debugging of Startup Project</source>
-        <translation type="unfinished">Start Debugging of Startup Project</translation>
+        <translation>启动项目的开始调试</translation>
     </message>
     <message>
         <location line="+143"/>
         <source>Reload debugging helpers skipped as no engine is running.</source>
-        <translation type="unfinished">Reload debugging helpers skipped as no engine is running.</translation>
+        <translation>因没有引擎运行，跳过重新载入调试帮助程序。</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -36054,7 +36057,7 @@ Examining symbols and setting breakpoints by file name and line number may fail.
     <message>
         <location line="+3"/>
         <source>in Profile mode</source>
-        <translation type="unfinished">处于分析模式</translation>
+        <translation>处于Profile模式</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -36069,7 +36072,7 @@ Examining symbols and setting breakpoints by file name and line number may fail.
     <message>
         <location line="+3"/>
         <source>on optimized code (Profile or Release mode)</source>
-        <translation type="unfinished">优化代码（分析或发布模式）</translation>
+        <translation>优化代码（Profile 或 Release 模式）</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -36136,34 +36139,34 @@ Examining symbols and setting breakpoints by file name and line number may fail.
     <message>
         <location line="+5"/>
         <source>The kit does not have a debugger set.</source>
-        <translation type="unfinished">The kit does not have a debugger set.</translation>
+        <translation>该工具包无调试器设置。</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Unpacking core file to %1</source>
-        <translation type="unfinished">解压核心文件到‘%1’</translation>
+        <translation>将核心转储文件解压缩到 %1</translation>
     </message>
     <message>
         <location line="+103"/>
         <source>Cannot debug: Local executable is not set.</source>
-        <translation type="unfinished">无法调试：未设置本地程序。</translation>
+        <translation>无法调试：未设置本地可执行文件。</translation>
     </message>
     <message>
         <location line="+219"/>
         <source>No executable specified.</source>
-        <translation type="unfinished">未指定程序。</translation>
+        <translation>未指定可执行文件。</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>%1 is a 64 bit executable which can not be debugged by a 32 bit Debugger.
 Please select a 64 bit Debugger in the kit settings for this kit.</source>
-        <translation type="unfinished">‘%1’是64位程序，不能由32位调试器进行调试。
-请选择64位调试器。</translation>
+        <translation>%1 是 64 位可执行文件，不能由 32 位调试器调试。
+请在此套件的套件设置中选择一个 64 位 Debugger。</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Debugged executable</source>
-        <translation type="unfinished">调试程序</translation>
+        <translation>调试的可执行文件</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -36173,7 +36176,7 @@ Please select a 64 bit Debugger in the kit settings for this kit.</source>
     <message>
         <location line="+20"/>
         <source>Specify Debugger settings in Projects &gt; Run.</source>
-        <translation type="unfinished">Specify Debugger settings in Projects &gt; Run.</translation>
+        <translation>在 Projects &gt; Run 中指定 Debugger 设置。</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -36183,37 +36186,37 @@ Please select a 64 bit Debugger in the kit settings for this kit.</source>
     <message>
         <location line="+28"/>
         <source>Some breakpoints cannot be handled by the debugger languages currently active, and will be ignored.&lt;p&gt;Affected are breakpoints %1</source>
-        <translation type="unfinished">Some breakpoints cannot be handled by the debugger languages currently active, and will be ignored.&lt;p&gt;Affected are breakpoints %1</translation>
+        <translation>某些断点无法由当前活动的调试器语言处理，并且将被忽略。&lt;p&gt;受影响的是断点 %1</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>QML debugging needs to be enabled both in the Build and the Run settings.</source>
-        <translation type="unfinished">QML debugging needs to be enabled both in the Build and the Run settings.</translation>
+        <translation>需要在 Build 和 Run 设置中启用 QML 调试。</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Debugging %1 ...</source>
-        <translation type="unfinished">Debugging %1 ...</translation>
+        <translation>正在调试 %1 ...</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Debugging of %1 has finished with exit code %2.</source>
-        <translation type="unfinished">Debugging of %1 has finished with exit code %2.</translation>
+        <translation>%1 的调试已完成，但退出代码为 %2。</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Debugging of %1 has finished.</source>
-        <translation type="unfinished">Debugging of %1 has finished.</translation>
+        <translation>%1 的调试已完成。</translation>
     </message>
     <message>
         <location line="+58"/>
         <source>Not enough free ports for QML debugging.</source>
-        <translation type="unfinished">没有足够的空闲端口为QML调试使用。</translation>
+        <translation>没有足够的空闲端口进行 QML 调试。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/debuggersourcepathmappingwidget.cpp" line="-155"/>
         <source>&lt;p&gt;Mappings of source file folders to be used in the debugger can be entered here.&lt;/p&gt;&lt;p&gt;This is useful when using a copy of the source tree at a location different from the one at which the modules where built, for example, while doing remote debugging.&lt;/p&gt;&lt;p&gt;If source is specified as a regular expression by starting it with an open parenthesis, the paths in the ELF are matched with the regular expression to automatically determine the source path.&lt;/p&gt;&lt;p&gt;Example: &lt;b&gt;(/home/.*/Project)/KnownSubDir -&gt; D:\Project&lt;/b&gt; will substitute ELF built by any user to your local project directory.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;在此输入调试器中使用的源文件文件夹的映射。&lt;/p&gt;&lt;p&gt;这将对于使用那些和源码构建路径不同路径的源码副本将会非常有用。比如进行远程调试。&lt;/p&gt;&lt;p&gt;如果源被指定为一个以开放括号开头的正则表达式，Qt Creator通过正则表达式匹配在ELF中的路径以便自动决定源路径。&lt;/p&gt;&lt;p&gt;举一个例子：&lt;b&gt;(/home/.*/Project)/KnownSubDir -&gt; D:\Project&lt;/b&gt;将会将被任一用户构建的ELF代替为您本地项目的目录。&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;可以在此处输入要在调试器中使用的源文件夹的映射。&lt;/p&gt;&lt;p&gt;当在与构建模块的位置不同的位置使用源代码树的副本时，例如，在进行远程调试时，这很有用。&lt;/p&gt;&lt;p&gt;如果通过将 source 指定为正则表达式（以左括号开头），则 ELF 中的路径将与正则表达式匹配，以自动确定源路径。&lt;/p&gt;&lt;p&gt;示例：&lt;b&gt;（/home/.*/Project）/KnownSubDir -&gt; D：Project&lt;/b&gt; 会将任何用户构建的 ELF 替换为您的本地项目目录。&lt;/p&gt;</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -36249,22 +36252,22 @@ Please select a 64 bit Debugger in the kit settings for this kit.</source>
         <location line="+153"/>
         <location line="+320"/>
         <source>No valid expression</source>
-        <translation type="unfinished">没有有效的表达式</translation>
+        <translation>无有效表达式</translation>
     </message>
     <message>
         <location line="-311"/>
         <source>%1 (Previous)</source>
-        <translation type="unfinished">%1（之前）</translation>
+        <translation>%1 (之前)</translation>
     </message>
     <message>
         <location line="+222"/>
         <source>%1 (Restored)</source>
-        <translation type="unfinished">%1（还原）</translation>
+        <translation>%1 (恢复)</translation>
     </message>
     <message>
         <location line="+145"/>
         <source>Expression too complex</source>
-        <translation type="unfinished">表达示过于复杂</translation>
+        <translation>表达式过于复杂</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/enginemanager.cpp" line="-172"/>
@@ -36274,7 +36277,7 @@ Please select a 64 bit Debugger in the kit settings for this kit.</source>
     <message>
         <location line="+0"/>
         <source>Debugged Application</source>
-        <translation type="unfinished">调试应用程序</translation>
+        <translation>调试的应用程序</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="-1118"/>
@@ -36289,12 +36292,12 @@ Please select a 64 bit Debugger in the kit settings for this kit.</source>
     <message>
         <location filename="../../../src/plugins/debugger/gdb/gdbengine.cpp" line="-4344"/>
         <source>The gdb process failed to start.</source>
-        <translation type="unfinished">gdb进程启动失败。</translation>
+        <translation>gdb 进程启动失败。</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>An exception was triggered:</source>
-        <translation type="unfinished">异常被触发：</translation>
+        <translation>触发了异常：</translation>
     </message>
     <message numerus="yes">
         <location line="+630"/>
@@ -36308,7 +36311,7 @@ You can choose between waiting longer or aborting debugging.</source>
     <message>
         <location line="+6"/>
         <source>GDB Not Responding</source>
-        <translation type="unfinished">GDB不响应</translation>
+        <translation>GDB 未响应</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -36334,12 +36337,12 @@ You can choose between waiting longer or aborting debugging.</source>
     <message>
         <location line="+27"/>
         <source>Target line hit, and therefore stopped.</source>
-        <translation type="unfinished">目标行到达。停止。</translation>
+        <translation>命中目标行。停止。</translation>
     </message>
     <message>
         <location line="+117"/>
         <source>Application exited normally.</source>
-        <translation type="unfinished">程序正常退出。</translation>
+        <translation>应用程序已正常退出。</translation>
     </message>
     <message>
         <location line="+312"/>
@@ -36350,13 +36353,13 @@ You can choose between waiting longer or aborting debugging.</source>
         <location line="+29"/>
         <location line="+404"/>
         <source>Cannot continue debugged process:</source>
-        <translation type="unfinished">无法继续调试的进程：</translation>
+        <translation>无法继续调试的进程:</translation>
     </message>
     <message>
         <location line="-280"/>
         <location filename="../../../src/plugins/debugger/uvsc/uvscengine.cpp" line="-91"/>
         <source>Failed to Shut Down Application</source>
-        <translation type="unfinished">关闭应用程序失败</translation>
+        <translation>无法关闭应用程序</translation>
     </message>
     <message>
         <location line="+73"/>
@@ -36462,7 +36465,7 @@ You can choose between waiting longer or aborting debugging.</source>
     <message>
         <location line="+1"/>
         <source>No remote executable could be determined from your build system files.&lt;p&gt;In case you use qmake, consider adding&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;target.path = /tmp/your_executable # path on device&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;INSTALLS += target&lt;/p&gt;to your .pro file.</source>
-        <translation type="unfinished">没有远程程序可以从您的构建系统文件来确定&lt;p&gt;在您使用qmake的情况下，考虑增加&lt;P&gt;＆NBSP;＆NBSP;＆NBSP;＆NBSP;在设备上搜索＆NBSP target.path=的/ tmp/ your_executable＃路径;＆NBSP;＆NBSP;＆NBSP;安装+=目标没有远程可执行文件可以从您的构建系统文件来确定&lt;p&gt;在您使用QMake的情况下，考虑增加&lt;P&gt;＆NBSP;＆NBSP;＆NBSP;＆NBSP;在设备上搜索＆NBSP target.path=的/ tmp/ your_executable＃路径;＆NBSP;＆NBSP;＆NBSP;安装+=目标t&lt;/p&gt;你的.pro文件。</translation>
+        <translation>无法从生成系统文件中确定远程可执行文件。&lt;p&gt;如果您使用 qmake，请考虑将 &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;target.path = /tmp/your_executable # path on device&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;INSTALLS += target &lt;/p&gt;添加到您的.pro 文件中。</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -36472,12 +36475,12 @@ You can choose between waiting longer or aborting debugging.</source>
     <message>
         <location line="+201"/>
         <source>Attach to core &quot;%1&quot; failed:</source>
-        <translation type="unfinished">附加到核心‘%1’失败：</translation>
+        <translation>连接到核心“%1”失败：</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Continuing nevertheless.</source>
-        <translation type="unfinished">然而继续。</translation>
+        <translation>尽管如此，仍在继续。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/gdb/gdbsettings.cpp" line="+56"/>
@@ -36517,7 +36520,7 @@ You can choose between waiting longer or aborting debugging.</source>
     <message>
         <location line="+190"/>
         <source>Interrupt requested...</source>
-        <translation type="unfinished">中断请求...</translation>
+        <translation>请求中断...</translation>
     </message>
     <message>
         <location line="+433"/>
@@ -36583,22 +36586,22 @@ You can choose between waiting longer or aborting debugging.</source>
     <message>
         <location line="-7"/>
         <source>Failed to copy core file to device: %1</source>
-        <translation type="unfinished">Failed to copy core file to device: %1</translation>
+        <translation>无法将核心转储文件复制到设备： %1</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Failed to copy symbol file to device: %1</source>
-        <translation type="unfinished">Failed to copy symbol file to device: %1</translation>
+        <translation>无法将元件文件复制到设备 %1</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Copying files to device... %1/%2</source>
-        <translation type="unfinished">Copying files to device... %1/%2</translation>
+        <translation>正在将文件复制到设备... %1/%2</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>Copying files to device...</source>
-        <translation type="unfinished">Copying files to device...</translation>
+        <translation>正在将文件复制到设备...</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/logwindow.cpp" line="-121"/>
@@ -36616,8 +36619,8 @@ You can choose between waiting longer or aborting debugging.</source>
 You may be asked to share the contents of this log when reporting bugs related to debugger operation. In this case, make sure your submission does not contain data you do not want to or you are not allowed to share.
 
 </source>
-        <translation type="unfinished">注意：此日志包含关于您的计算机、环境变量、正在调试的进程的内存数据等的机密信息。它从不通过%1在互联网上传输，只有在您手动使用上下文菜单中的相应选项，或通过不受%1的调试器插件控制的机制（例如在交换文件中）或您可能使用的其他插件时，才会存储到磁盘。
-当报告与调试器操作相关的错误时，可能会要求您共享此日志的内容。在这种情况下，请确保您的提交不包含您不希望或不允许共享的数据。
+        <translation>注意：此日志可能包含有关您的计算机、环境变量、您正在调试的进程的内存数据等的机密信息。%1 永远不会通过 Internet 传输它，只有在您手动使用上下文菜单中的相应选项时，或者通过不受 %1 的 Debugger 插件控制的机制（例如在交换文件中，或您可能使用的其他插件）才会存储到磁盘。
+在报告与调试器操作相关的错误时，系统可能会要求您共享此日志的内容。在这种情况下，请确保您的提交不包含您不想共享的数据或不允许共享的数据。
 
 </translation>
     </message>
@@ -36629,18 +36632,19 @@ You may be asked to share the contents of this log when reporting bugs related t
     <message>
         <location filename="../../../src/plugins/debugger/memoryagent.cpp" line="-57"/>
         <source>Memory at Register &quot;%1&quot; (0x%2)</source>
-        <translation type="unfinished">寄存器‘%1’（0x%2）处的内存</translation>
+        <translation>寄存器 &quot;%1&quot;(0x%2) 处的内存</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Register &quot;%1&quot;</source>
-        <translation type="unfinished">寄存器‘%1’</translation>
+        <translation>寄存器 &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/moduleshandler.cpp" line="-81"/>
         <source>This module contains debug information.
 Stepping into the module or setting breakpoints by file and line is expected to work.</source>
-        <translation type="unfinished">该模块包含调试信息，单步进入模块或者设置文件和行的断点能按预期工作。</translation>
+        <translation>此模块包含调试信息。
+单步执行模块或按 file 和 line 设置断点应该可以正常工作。</translation>
     </message>
     <message>
         <location line="+77"/>
@@ -36700,7 +36704,7 @@ Stepping into the module or setting breakpoints by file and line is expected to 
     <message>
         <location line="+242"/>
         <source>View Groups</source>
-        <translation type="unfinished">组视图</translation>
+        <translation>视图分组</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -36756,42 +36760,42 @@ Stepping into the module or setting breakpoints by file and line is expected to 
     <message>
         <location filename="../../../src/plugins/debugger/registerhandler.cpp" line="-110"/>
         <source>Content as ASCII Characters</source>
-        <translation type="unfinished">连接所有ASCII 字符</translation>
+        <translation>内容为 ASCII 字符</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Content as %1-bit Signed Decimal Values</source>
-        <translation type="unfinished">内容%1位有符号十进制值</translation>
+        <translation>内容为 %1 位有符号十进制值</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Content as %1-bit Unsigned Decimal Values</source>
-        <translation type="unfinished">内容%1位无符号十进制值</translation>
+        <translation>内容为 %1 位无符号十进制值</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Content as %1-bit Hexadecimal Values</source>
-        <translation type="unfinished">内容%1位十六进制值</translation>
+        <translation>内容为 %1 位十六进制值</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Content as %1-bit Octal Values</source>
-        <translation type="unfinished">内容%1位八进制值</translation>
+        <translation>内容为 %1 位八进制值</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Content as %1-bit Binary Values</source>
-        <translation type="unfinished">内容%1位二进制值</translation>
+        <translation>内容为 %1 位二进制值</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Content as %1-bit Floating Point Values</source>
-        <translation type="unfinished">内容%1位浮点值</translation>
+        <translation>内容为 %1 位浮点值</translation>
     </message>
     <message>
         <location line="+48"/>
         <source>A group of registers.</source>
-        <translation type="unfinished">A group of registers.</translation>
+        <translation>一组寄存器。</translation>
     </message>
     <message>
         <location line="+232"/>
@@ -36801,12 +36805,12 @@ Stepping into the module or setting breakpoints by file and line is expected to 
     <message>
         <location filename="../../../src/plugins/debugger/shared/cdbsymbolpathlisteditor.cpp" line="-5"/>
         <source>A file named &quot;%1&quot; already exists.</source>
-        <translation type="unfinished">文件‘%1’已存在。</translation>
+        <translation>名为 “%1” 的文件已存在。</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>The folder &quot;%1&quot; could not be created.</source>
-        <translation type="unfinished">目录‘%1’无法创建。</translation>
+        <translation>无法创建文件夹 “%1”。</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -36816,7 +36820,7 @@ Stepping into the module or setting breakpoints by file and line is expected to 
     <message>
         <location line="+3"/>
         <source>Adds the Microsoft symbol server providing symbols for operating system libraries. Requires specifying a local cache directory.</source>
-        <translation type="unfinished">添加微软符号服务器提供操作系统库符号。需要指定一个本地缓存目录。</translation>
+        <translation>添加微软符号服务器，为操作系统库提供符号。需要指定本地缓存目录。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -36856,7 +36860,7 @@ Stepping into the module or setting breakpoints by file and line is expected to 
     <message>
         <location line="+2"/>
         <source>Use Microsoft Symbol Server</source>
-        <translation type="unfinished">使用符号服务器</translation>
+        <translation>使用Microsoft 符号服务器</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/sourcefileshandler.cpp" line="+2"/>
@@ -36876,17 +36880,17 @@ Stepping into the module or setting breakpoints by file and line is expected to 
     <message>
         <location line="+9"/>
         <source>Binary debug information is not accessible for this frame. This either means the core was not compiled with debug information, or the debug information is not accessible.</source>
-        <translation type="unfinished">此框架无法访问程序调试信息。这意味着核心不是用调试信息编译的，或者调试信息不可访问。</translation>
+        <translation>该帧无法访问二进制调试信息。这意味着内核未编译调试信息，或调试信息不可用。</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Binary debug information is accessible for this frame. However, matching sources have not been found.</source>
-        <translation type="unfinished">此框架可以访问程序调试信息。但是，找不到匹配的来源。</translation>
+        <translation>该帧可以读取二进制调试信息，但未找到匹配的来源。</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Note that most distributions ship debug information in separate packages.</source>
-        <translation type="unfinished">注意大多数发行版附带的调试信息在单独的包中。</translation>
+        <translation>请注意，大多数发行版将调试信息放在单独的包中。</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/stackhandler.cpp" line="-26"/>
@@ -36951,22 +36955,22 @@ Stepping into the module or setting breakpoints by file and line is expected to 
     <message>
         <location filename="../../../src/plugins/debugger/threadshandler.cpp" line="-124"/>
         <source>Group&amp;nbsp;id:</source>
-        <translation type="unfinished">群组&amp;nbsp;id：</translation>
+        <translation>分组&amp;nbsp;id：</translation>
     </message>
     <message>
         <location filename="../../../src/plugins/debugger/unstartedappwatcherdialog.cpp" line="-25"/>
         <source>Attach to Process Not Yet Started</source>
-        <translation type="unfinished">Attach到进程尚未开始</translation>
+        <translation>附加到进程尚未启动</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Reopen dialog when application finishes</source>
-        <translation type="unfinished">重新打开对话框，当应用程序完成</translation>
+        <translation>应用程序完成时重新打开对话框</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reopens this dialog when application finishes.</source>
-        <translation type="unfinished">重新打开此对话框，当应用程序完成。</translation>
+        <translation>应用程序完成后重新打开此对话框。</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -36976,23 +36980,23 @@ Stepping into the module or setting breakpoints by file and line is expected to 
     <message>
         <location line="+1"/>
         <source>Debugger does not stop the application after attach.</source>
-        <translation type="unfinished">attch之后调试器没有停止应用程序。</translation>
+        <translation>连接后，调试器不会停止应用程序。</translation>
     </message>
     <message>
         <location line="+10"/>
         <location line="+97"/>
         <source>Start Watching</source>
-        <translation type="unfinished">开始监控</translation>
+        <translation>开始监视</translation>
     </message>
     <message>
         <location line="-90"/>
         <source>Kit: </source>
-        <translation type="unfinished">构建套件： </translation>
+        <translation>构建套件: </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Executable: </source>
-        <translation type="unfinished">程序： </translation>
+        <translation>可执行文件： </translation>
     </message>
     <message>
         <location line="+89"/>
@@ -45941,7 +45945,7 @@ See the documentation of the specific language server for valid settings.</sourc
     <message>
         <location filename="../../../src/plugins/languageclient/languageclientsettings.cpp" line="+148"/>
         <source>Executable:</source>
-        <translation>程序：</translation>
+        <translation>可执行文件：</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -52570,7 +52574,7 @@ Display name of the build build step list. Used as part of the labels in the pro
         <location filename="../../../src/plugins/projectexplorer/runconfigurationaspects.cpp" line="+212"/>
         <location filename="../../../src/plugins/projectexplorer/workspaceproject.cpp" line="+180"/>
         <source>Executable:</source>
-        <translation>程序：</translation>
+        <translation>可执行文件：</translation>
     </message>
     <message>
         <location line="+95"/>
